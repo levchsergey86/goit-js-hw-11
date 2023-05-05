@@ -1,7 +1,7 @@
 import axios from 'axios';
 import SimpleLightbox from 'simplelightbox';
 import debounce from 'lodash.debounce';
-import notiflix from 'notiflix';
+// import notiflix from 'notiflix';
 
 const gallery = document.querySelector('.gallery');
 const input = document.querySelector('input[name="searchQuery"]');
