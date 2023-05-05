@@ -2,6 +2,7 @@ import axios from 'axios';
 import SimpleLightbox from 'simplelightbox';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const gallery = document.querySelector('.gallery');
 const input = document.querySelector('input[name="searchQuery"]');
